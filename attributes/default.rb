@@ -1,4 +1,5 @@
 default["radicale"]["daemon"] = "False"
+default["radicale"]["port"] = 5232
 default["radicale"]["pid"] = nil
 default["radicale"]["ssl"] = "False"
 default["radicale"]["acl"] = "None"

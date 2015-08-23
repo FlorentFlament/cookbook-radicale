@@ -14,7 +14,7 @@
 # IPv4 syntax: address:port
 # IPv6 syntax: [address]:port
 # IPv6 adresses are configured to only allow IPv6 connections
-hosts = 0.0.0.0:5232
+hosts = 0.0.0.0:<%= node["radicale"]["port"] %>
 # Daemon flag
 daemon = <%= node["radicale"]["daemon"] %>
 # File storing the PID in daemon mode
