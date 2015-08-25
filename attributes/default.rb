@@ -12,7 +12,7 @@ default["radicale"]["ldap_base"] = "ou=users,dc=example,dc=com"
 default["radicale"]["ldap_attribute"] = "uid"
 default["radicale"]["ldap_binddn"] = nil
 default["radicale"]["ldap_password"] = nil
-default["radicale"]["folder"] = "~/.config/radicale/calendars"
+default["radicale"]["filesystem_folder"] = "~/.config/radicale/collections"
 default["radicale"]["logging"]["config"] = "/etc/radicale/logging"
 default["radicale"]["logging"]["debug"] = "False"
 default["radicale"]["logging"]["full_env"] = "False"

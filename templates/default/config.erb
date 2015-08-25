@@ -58,8 +58,8 @@ ldap_binddn = <%= node["radicale"]["ldap_binddn"] %>
 ldap_password = <%= node["radicale"]["ldap_password"] %>
 
 [storage]
-# Folder for storing local calendars, created if not present
-folder = <%= node["radicale"]["folder"] %>
+# Folder for storing local collections, created if not present
+filesystem_folder = <%= node["radicale"]["filesystem_folder"] %>
 
 [logging]
 # Logging configuration file
