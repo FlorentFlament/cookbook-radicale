@@ -3,7 +3,7 @@
 # Recipe:: default
 #
 
-users = data_bag('users')
+users = data_bag('users') rescue []  # If the users data bag doesn't exist
 ulist = Hash.new
 
 users.each do |id|
